@@ -1,0 +1,5 @@
+userword = input("please enter a word :")
+firstletter = userword[0]
+length = len(userword)
+word = userword[1, length]
+print(word + firstletter + "ay")
